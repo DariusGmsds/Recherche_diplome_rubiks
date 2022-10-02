@@ -25,15 +25,27 @@ Sur cette page on peux observer deux interface : <br>
 ![Image de l'interface du logiciel uniquement la partie 3D](img/screen3D.png)
 #### **L'interface avec la partie texte en plein écran**
 ![Image de l'interface du logiciel uniquement la partie Texte](img/ScreenTxt.png)
-L'intérer de cette partie serais double : 
+L'intérer de cette partie serais double : <br>
  - La première utilisation visera des personnes expérimenter dans les cubes et qui comprend cette notation.
+ - La deuxième est de pouvoir cliquer sur une lettre est de pouvoir directement aller àa l'étape concerner.
 
 ## Navigation
+
+Dans cette application il y auras 6 option de navigations.
+
+ - FILE     : Bouton seras lier a tout les option lier a l'application.
+ - EDIT     : Bouton similaire au précèdant avec d'autre option.
+ - METHOD   : Bouton permetant de choisir sa methode de résolution du cube.
+ - NOTATION : Bouton feras aparaitre les différentes notation avec un exemple.
+ - TIMER    : Bouton permetant d'avoir un timer et d'avoir son score personnelle.
+ - HELP     : Page d'aide.
+
+
 
 ## Existant
 - Giiker Super Cube (Rubik's cube physique plus application téléphone)
 - [Grubiks (site)](https://www.grubiks.com/puzzles/rubiks-cube-3x3x3/)
-- [CubeExplorer]((http://kociemba.org/cube.htm))
+- [CubeExplorer](http://kociemba.org/cube.htm)
 ![Image de cube explorer](img/cubeExplorer.png)
 
 ## Technologie
