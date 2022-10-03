@@ -5,3 +5,5 @@ theme:
   features:
       - navigation.tabs
   language: fr
+  plugins:
+    - with-pdf

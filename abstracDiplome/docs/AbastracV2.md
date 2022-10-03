@@ -1,43 +1,49 @@
 # Abtract V2 [Rubik'Solver] 
 
 ## Sujet
-Un outils permetant de résoudre un Rubik's cube avec le moins de coup possible [(méthode Fridrich)](http://www.ws.binghamton.edu/fridrich/system.html). Cela ce fera en posant un rubik's cube sous deux caméras qui récupéront les données à traiter.
+Un outil qui affiche les étapes permettant de résoudre un Rubik's cube avec le moins de coup possible [(méthode Fridrich)](http://www.ws.binghamton.edu/fridrich/system.html). Cela se fera en posant un rubik's cube sous deux caméras qui récupèrent les données à traiter.
 
-## Abstrac
-Le logiciel permet de reconnaitre un rubik's cube grace à deux webcame, d'analyser les informations reçu des caméra afin de le résoudre avec une méthodes choisit.
-Pour ce qui est de la reconnaisance il s'agirait d'avoir deux caméras qui filmerais en temp réel le rubik's cube.
+## Résumer
+Le logiciel permet de reconnaitre un rubik's cube grace à deux webcame, d'analyser les informations reçurent des caméras afin de le résoudre avec une méthode choisie.
+Pour ce qui est de la reconnaissance il s'agirait d'avoir deux caméras qui filmeraient en temps réel le rubik's cube.
 ![Image d'un plan physique](img/diagramme_1.jpg)
 
+ <div style="page-break-after: always;"></div>
+
 #### **Pourquoi deux caméra ?**
-J'utilise deux caméra, car, pour résoudre un rubik's cube il faut au moin avoir l'information sur 4 face. 
-Voir 4 face avec une caméra est un peux compliquer si la caméra ou le cube ne bouge pas. C'est pourquoi j'utilise deux caméra.
+J'utilise deux caméras, car, pour résoudre un rubik's cube il faut au moins avoir l'information sur 4 faces. 
+Voir 4 faces avec une caméra est un peut compliquer si la caméra ou le cube ne bouge pas. C'est pourquoi j'utilise deux caméras.
 
-
-Il est égalemnt possible de générer un rubik's cube mélanger de façon "optimale" (20 mouvement). Et d'avoir la solution de ce dernier.
+Il est également possible de générer un rubik's cube mélanger de façon "optimale" (20 mouvements. Et d'avoir la solution de ce dernier.
 
 ## Interface
 #### **L'interface complète**
 ![Image de l'interface du logiciel](img/screenFull.png)
-Sur cette page on peux observer deux interface : <br>
- - La première zone (à gauche), est la zone ou un rubik's cube 3D apparaitra. Dans cette zone on peut retrouve une diapositive barre avec deux petits boutons. Ces derniers serviront à naviguer à travers les différentes étapes pour résoudre le rubik's cube. <br>
+Sur cette page on peut observer deux interfaces :
+
+ - La première zone (à gauche), est la zone ou un rubik's cube 3D apparaîtra. Dans cette zone on peut retrouve une diapositive barre avec deux petits boutons. Ces derniers serviront à naviguer à travers les différentes étapes pour résoudre le rubik's cube.<br>
  - La deuxième zone (à droite), est la zone ou les termes correspondant au mouvement apparaitrons. Il est possible d'appuyer sur les différents termes apparu pour aller à l'étape correspondante.
+
+ <div style="page-break-after: always;"></div> 
+
 #### **L'interface avec la partie 3D en plein écran**
 ![Image de l'interface du logiciel uniquement la partie 3D](img/screen3D.png)
 #### **L'interface avec la partie texte en plein écran**
 ![Image de l'interface du logiciel uniquement la partie Texte](img/ScreenTxt.png)
-L'intérer de cette partie serais double : <br>
+L'insérer de cette partie serait double :
+
  - La première utilisation visera des personnes expérimenter dans les cubes et qui comprend cette notation.
  - La deuxième est de pouvoir cliquer sur une lettre est de pouvoir directement aller àa l'étape concerner.
 
 ## Navigation
 
-Dans cette application il y auras 6 option de navigations.
+Dans cette application il y aura 6 options de navigation.
 
- - FILE     : Bouton seras lier a tout les option lier a l'application.
- - EDIT     : Bouton similaire au précèdant avec d'autre option.
- - METHOD   : Bouton permetant de choisir sa methode de résolution du cube.
- - NOTATION : Bouton feras aparaitre les différentes notation avec un exemple.
- - TIMER    : Bouton permetant d'avoir un timer et d'avoir son score personnelle.
+ - FILE     : Bouton sera lié à toutes les options lier à l'application.
+ - EDIT     : Bouton similaire au précédent avec d'autre options.
+ - METHOD   : Bouton permettant de choisir sa méthode de résolution du cube.
+ - NOTATION : Bouton fera apparaître les différentes notations avec un exemple.
+ - TIMER    : Bouton permettant d'avoir un timer et d'avoir son score personnel.
  - HELP     : Page d'aide.
 
 
@@ -68,3 +74,6 @@ Dans cette application il y auras 6 option de navigations.
 - [Logiciel de création de cube via la webcam (cube Explorer)](http://kociemba.org/cube.htm)
 - [Notation des termes du rubik's cube](https://www.francocube.com/notation)
 
+<!-- Markdeep: /// <style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>-->
+
+<!--- <div style="page-break-after: always;"></div> -->
