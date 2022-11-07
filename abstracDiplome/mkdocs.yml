@@ -1,9 +1,15 @@
-site_name: My Docs
-
+site_name: Abastract
+site_author : Darius Gomes
+copyright: Copyright &copy; 2022 Darius Gomes
 theme:
   name: material
   features:
       - navigation.tabs
   language: fr
-  plugins:
-    - with-pdf
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+ 
+
